@@ -110,7 +110,7 @@ This outline serves as both a **summation** of the provided micro-reality framew
 
 Copyright (c) 2026 Volmarr Wyrd
 
-Mythic Vibe CLI is licensed under the Apache License, Version 2.0.
+Micro Reality is licensed under the Apache License, Version 2.0.
 See the [LICENSE](LICENSE) file for details.
 
 Unless required by applicable law or agreed to in writing, this project is distributed on an "AS IS" BASIS, without warranties or conditions of any kind.
@@ -119,7 +119,7 @@ Unless required by applicable law or agreed to in writing, this project is distr
 
 ## Distribution and Privacy Position
 
-Mythic Vibe CLI is published here as source code and project material.
+Micro Reality is published here as source code and project material.
 
 The author does not require users to provide age, identity, government ID, biometric data, or similar personal information in order to access or use the source code in this repository.
 
