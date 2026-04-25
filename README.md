@@ -1,6 +1,6 @@
 ---
 
-
+![https://raw.githubusercontent.com/hrabanazviking/Micro-Reality/refs/heads/main/sZeta-micro-reality.jpg](https://raw.githubusercontent.com/hrabanazviking/Micro-Reality/refs/heads/main/sZeta-micro-reality.jpg)
 
 ---
 
