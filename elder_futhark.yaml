@@ -1,0 +1,452 @@
+# Elder Futhark Runes - Complete Reference
+# ==========================================
+# 24 runes of the Elder Futhark with meanings, symbolic encounters,
+# D&D 5E birth mechanics, and mystic roll effects.
+
+runes:
+  - name: "Fehu"
+    symbol: "ᚠ"
+    letter: "F"
+    meaning: "Wealth, vitality, beginnings"
+    keywords: ["prosperity", "luck", "cattle", "abundance"]
+    
+    # Oracle/GM use
+    symbolic_encounter: "A chest or herd symbolizes prosperity or temptation"
+    outcome_twist: "Gain resources, face greed challenge"
+    
+    # Birth Rune (character creation)
+    birth_effect:
+      description: "+1d4 gold from loot or one Inspiration/day"
+      mechanic: "inspiration_daily"
+      flavor: "Born under wealth and luck; opportunities seem to appear magically."
+    
+    # Mystic Roll (in-game draw)
+    mystic_effect:
+      description: "Minor blessing: next loot or coin finds double"
+      flavor: "Fortune smiles; the wind of wealth blows."
+
+  - name: "Uruz"
+    symbol: "ᚢ"
+    letter: "U"
+    meaning: "Strength, endurance, primal energy"
+    keywords: ["power", "vitality", "wild ox", "courage"]
+    
+    symbolic_encounter: "Wild beast or natural obstacle"
+    outcome_twist: "Test courage, gain inner resilience"
+    
+    birth_effect:
+      description: "+1 STR; gain 1 extra HP per level"
+      mechanic: "str_bonus_hp"
+      flavor: "Strength and endurance mark your life path."
+    
+    mystic_effect:
+      description: "Physical surge: +1 STR or HP for 1 hour"
+      flavor: "Strength and vitality flow; heroic acts easier."
+
+  - name: "Thurisaz"
+    symbol: "ᚦ"
+    letter: "Th"
+    meaning: "Challenge, conflict, thorn"
+    keywords: ["giants", "protection", "obstacle", "defense"]
+    
+    symbolic_encounter: "Ogre, rival, or thorny terrain"
+    outcome_twist: "Confront obstacle or temptation"
+    
+    birth_effect:
+      description: "+1 AC vs one enemy type"
+      mechanic: "ac_vs_type"
+      flavor: "You instinctively resist a particular threat; fate shields you."
+    
+    mystic_effect:
+      description: "Resistance: +1 AC or saving throw vs one attack"
+      flavor: "Fate shields you from an enemy."
+
+  - name: "Ansuz"
+    symbol: "ᚨ"
+    letter: "A"
+    meaning: "Communication, divine message"
+    keywords: ["Odin", "wisdom", "prophecy", "speech"]
+    
+    symbolic_encounter: "A seer, whispering wind, or omen"
+    outcome_twist: "Gain insight or prophecy"
+    
+    birth_effect:
+      description: "+1 WIS or INT; advantage once/day on knowledge/insight check"
+      mechanic: "mental_bonus_advantage"
+      flavor: "Messages from gods whisper to you; insight flows in visions."
+    
+    mystic_effect:
+      description: "Insight: advantage on next knowledge or investigation roll"
+      flavor: "Messages from gods; visions hint at truth."
+
+  - name: "Raidho"
+    symbol: "ᚱ"
+    letter: "R"
+    meaning: "Journey, movement, rhythm"
+    keywords: ["travel", "path", "riding", "order"]
+    
+    symbolic_encounter: "Travel challenge, road, or river"
+    outcome_twist: "Change path or discover hidden route"
+    
+    birth_effect:
+      description: "+5 ft movement; proficiency with land navigation or vehicles"
+      mechanic: "speed_navigation"
+      flavor: "Life is a journey; destiny guides your path."
+    
+    mystic_effect:
+      description: "Journey aid: +10 ft movement, bonus on navigation"
+      flavor: "Destiny guides your path; travel smoother."
+
+  - name: "Kenaz"
+    symbol: "ᚲ"
+    letter: "K"
+    meaning: "Knowledge, illumination"
+    keywords: ["torch", "craft", "insight", "creativity"]
+    
+    symbolic_encounter: "Hidden chamber, puzzle, or insight"
+    outcome_twist: "Reveal secret, creative solution"
+    
+    birth_effect:
+      description: "+1 to spell attack or DC once/day"
+      mechanic: "spell_bonus"
+      flavor: "Sparks of clarity ignite in moments of need."
+    
+    mystic_effect:
+      description: "Spark: next spell or ability gains +1 effect"
+      flavor: "Inspiration and creativity ignite magically."
+
+  - name: "Gebo"
+    symbol: "ᚷ"
+    letter: "G"
+    meaning: "Gift, partnership, exchange"
+    keywords: ["generosity", "balance", "contract", "hospitality"]
+    
+    symbolic_encounter: "Stranger offers aid or choice"
+    outcome_twist: "Accept or decline shapes fate"
+    
+    birth_effect:
+      description: "Gain proficiency in one social skill"
+      mechanic: "social_proficiency"
+      flavor: "Bonds, friendships, and alliances are favored."
+    
+    mystic_effect:
+      description: "Ally aid: NPC or companion assists immediately"
+      flavor: "Bonds manifest in immediate help."
+
+  - name: "Wunjo"
+    symbol: "ᚹ"
+    letter: "W"
+    meaning: "Joy, harmony, success"
+    keywords: ["happiness", "clan", "fellowship", "glory"]
+    
+    symbolic_encounter: "Festival, celebration, or reunion"
+    outcome_twist: "Reward for teamwork, morale boost"
+    
+    birth_effect:
+      description: "Once/day Inspiration for aiding allies"
+      mechanic: "ally_inspiration"
+      flavor: "Born to bring joy and hope, uplifting companions."
+    
+    mystic_effect:
+      description: "Joy: grant Inspiration to a party member"
+      flavor: "Uplifting aura strengthens morale."
+
+  - name: "Hagalaz"
+    symbol: "ᚺ"
+    letter: "H"
+    meaning: "Disruption, hail, change"
+    keywords: ["storm", "destruction", "transformation", "chaos"]
+    
+    symbolic_encounter: "Storm, collapse, or sudden loss"
+    outcome_twist: "Unforeseen challenge, forces adaptation"
+    
+    birth_effect:
+      description: "Once/day, reroll a failed save or skill check"
+      mechanic: "reroll_daily"
+      flavor: "Storms of chaos touch your life; adaptability is required."
+    
+    mystic_effect:
+      description: "Chaos: minor mishap or environmental hazard"
+      flavor: "A storm, rockslide, or misfortune occurs."
+
+  - name: "Nauthiz"
+    symbol: "ᚾ"
+    letter: "N"
+    meaning: "Necessity, constraint"
+    keywords: ["need", "hardship", "endurance", "survival"]
+    
+    symbolic_encounter: "Trapped, shortage, or moral dilemma"
+    outcome_twist: "Learn patience or sacrifice"
+    
+    birth_effect:
+      description: "Resistance to damage once/day (1d6 + level)"
+      mechanic: "damage_resistance"
+      flavor: "Trials of hardship shape your resilience."
+    
+    mystic_effect:
+      description: "Trial: next attack or skill roll disadvantage"
+      flavor: "Hardship or challenge arises; fate tests resilience."
+
+  - name: "Isa"
+    symbol: "ᛁ"
+    letter: "I"
+    meaning: "Ice, stillness, stasis"
+    keywords: ["cold", "pause", "ego", "concentration"]
+    
+    symbolic_encounter: "Frozen path, paralysis, reflection"
+    outcome_twist: "Forced pause, insight from patience"
+    
+    birth_effect:
+      description: "Advantage on Perception check once/day"
+      mechanic: "perception_advantage"
+      flavor: "Calm reflection grants clarity in chaos."
+    
+    mystic_effect:
+      description: "Stillness: advantage on next Perception or Investigation"
+      flavor: "Calm observation reveals hidden elements."
+
+  - name: "Jera"
+    symbol: "ᛃ"
+    letter: "J"
+    meaning: "Year, harvest, cycles"
+    keywords: ["seasons", "reward", "patience", "karma"]
+    
+    symbolic_encounter: "Seasonal or fate-based reward"
+    outcome_twist: "Outcome depends on timing, patience pays"
+    
+    birth_effect:
+      description: "Double proficiency bonus on one long rest's skill roll"
+      mechanic: "double_proficiency"
+      flavor: "Time and patience yield reward."
+    
+    mystic_effect:
+      description: "Reward: bonus XP, loot, or skill benefit"
+      flavor: "Patience and diligence are rewarded."
+
+  - name: "Eihwaz"
+    symbol: "ᛇ"
+    letter: "Ei"
+    meaning: "Defense, resilience"
+    keywords: ["yew tree", "endurance", "protection", "death-life"]
+    
+    symbolic_encounter: "Protective forest, magical barrier"
+    outcome_twist: "Overcome by endurance or cunning"
+    
+    birth_effect:
+      description: "+1 AC or save against fear once/day"
+      mechanic: "fear_resistance"
+      flavor: "Enduring defense; protection through trial."
+    
+    mystic_effect:
+      description: "Protection: +1 AC or save vs magical effect for 1 hour"
+      flavor: "Defense strengthened; ancestral magic intervenes."
+
+  - name: "Perthro"
+    symbol: "ᛈ"
+    letter: "P"
+    meaning: "Mystery, fate"
+    keywords: ["dice cup", "secrets", "wyrd", "divination"]
+    
+    symbolic_encounter: "Fate-based twist, gambling, secret"
+    outcome_twist: "Hidden knowledge revealed or withheld"
+    
+    birth_effect:
+      description: "Once/day, roll for hidden knowledge or secret"
+      mechanic: "secret_knowledge"
+      flavor: "Fate hides or reveals mysteries; secrets are yours to discover."
+    
+    mystic_effect:
+      description: "Mystery: reveal hidden info, secret, or foreshadow"
+      flavor: "Fate's veil lifts slightly; secrets uncovered."
+
+  - name: "Algiz"
+    symbol: "ᛉ"
+    letter: "Z"
+    meaning: "Protection, sanctuary"
+    keywords: ["elk", "defense", "sacred", "warding"]
+    
+    symbolic_encounter: "Protective presence, sanctuary"
+    outcome_twist: "Divine or spiritual protection manifests"
+    
+    birth_effect:
+      description: "+2 to saves vs charm or fear"
+      mechanic: "mental_save_bonus"
+      flavor: "Spiritual defense is strong; guardian instinct active."
+    
+    mystic_effect:
+      description: "Guard: advantage on next saving throw vs fear/charm"
+      flavor: "Spiritual or divine protection manifests."
+
+  - name: "Sowilo"
+    symbol: "ᛊ"
+    letter: "S"
+    meaning: "Sun, success"
+    keywords: ["victory", "light", "guidance", "wholeness"]
+    
+    symbolic_encounter: "Sunlight breakthrough, clarity"
+    outcome_twist: "Sudden insight or advantage"
+    
+    birth_effect:
+      description: "Once/day, gain advantage on attack or spell"
+      mechanic: "attack_advantage"
+      flavor: "Sunlight of luck shines briefly; destiny favors action."
+    
+    mystic_effect:
+      description: "Success surge: advantage on next attack or save"
+      flavor: "Luck or sunlight guides the hero."
+
+  - name: "Tiwaz"
+    symbol: "ᛏ"
+    letter: "T"
+    meaning: "Justice, victory"
+    keywords: ["Tyr", "honor", "law", "sacrifice"]
+    
+    symbolic_encounter: "Duel, judgment, honorable combat"
+    outcome_twist: "Test of honor with consequences"
+    
+    birth_effect:
+      description: "+1 attack bonus; advantage on one attack roll/day"
+      mechanic: "attack_bonus"
+      flavor: "Justice and victory guide your hand."
+    
+    mystic_effect:
+      description: "Victory: +1 attack roll or advantage on combat roll"
+      flavor: "Justice and valor empower the strike."
+
+  - name: "Berkano"
+    symbol: "ᛒ"
+    letter: "B"
+    meaning: "Growth, renewal"
+    keywords: ["birch", "fertility", "birth", "nurturing"]
+    
+    symbolic_encounter: "New growth, healing spring"
+    outcome_twist: "Recovery, new beginning, blessing"
+    
+    birth_effect:
+      description: "Gain proficiency in Nature or Medicine"
+      mechanic: "nature_proficiency"
+      flavor: "Life, growth, and healing mark your path."
+    
+    mystic_effect:
+      description: "Growth: recover minor HP or gain short rest benefit"
+      flavor: "Healing or growth; nature's blessing."
+
+  - name: "Ehwaz"
+    symbol: "ᛖ"
+    letter: "E"
+    meaning: "Partnership, horse"
+    keywords: ["trust", "movement", "loyalty", "cooperation"]
+    
+    symbolic_encounter: "Horse or loyal companion appears"
+    outcome_twist: "Cooperation rewarded, teamwork bonus"
+    
+    birth_effect:
+      description: "+5 ft speed; advantage on mounted/ally actions"
+      mechanic: "mounted_bonus"
+      flavor: "Harmony with companions; journey aided."
+    
+    mystic_effect:
+      description: "Harmony: ally or mount acts optimally, advantage on rolls"
+      flavor: "Flow with companions or mounts aids action."
+
+  - name: "Mannaz"
+    symbol: "ᛗ"
+    letter: "M"
+    meaning: "Humanity, self"
+    keywords: ["mankind", "intelligence", "social", "mortality"]
+    
+    symbolic_encounter: "Human connection, self-reflection"
+    outcome_twist: "Insight about self or humanity"
+    
+    birth_effect:
+      description: "+1 CHA or Insight; gain advantage on one social check/day"
+      mechanic: "social_advantage"
+      flavor: "Human bonds, understanding, and empathy flow naturally."
+    
+    mystic_effect:
+      description: "Insight: advantage on next social check or Wisdom save"
+      flavor: "Understanding of others or yourself grants benefit."
+
+  - name: "Laguz"
+    symbol: "ᛚ"
+    letter: "L"
+    meaning: "Water, intuition"
+    keywords: ["lake", "emotions", "flow", "dreams"]
+    
+    symbolic_encounter: "River crossing, emotional test"
+    outcome_twist: "Trust intuition, hidden path revealed"
+    
+    birth_effect:
+      description: "Advantage on Survival or Water/Navigation check once/day"
+      mechanic: "water_advantage"
+      flavor: "Flow of rivers, seas, and intuition guide your path."
+    
+    mystic_effect:
+      description: "Flow: advantage on Survival or Water-related checks"
+      flavor: "Streams, seas, intuition guide success."
+
+  - name: "Ingwaz"
+    symbol: "ᛝ"
+    letter: "Ng"
+    meaning: "Potential, fertility"
+    keywords: ["Freyr", "seed", "gestation", "internal growth"]
+    
+    symbolic_encounter: "Hidden potential awakened"
+    outcome_twist: "Latent power or talent emerges"
+    
+    birth_effect:
+      description: "Gain one extra short rest recovery benefit per long rest"
+      mechanic: "rest_bonus"
+      flavor: "Potential and latent energy accumulate quietly."
+    
+    mystic_effect:
+      description: "Latent potential: regain 1 expended spell slot/ability once/day"
+      flavor: "Hidden strength realized at a key moment."
+
+  - name: "Dagaz"
+    symbol: "ᛞ"
+    letter: "D"
+    meaning: "Day, breakthrough"
+    keywords: ["dawn", "transformation", "balance", "awakening"]
+    
+    symbolic_encounter: "Sudden clarity, dawn revelation"
+    outcome_twist: "Decisive turning point, epiphany"
+    
+    birth_effect:
+      description: "Once/day, double proficiency bonus on a saving throw"
+      mechanic: "save_double"
+      flavor: "Breakthrough or sudden insight changes fate."
+    
+    mystic_effect:
+      description: "Breakthrough: double proficiency bonus on next save/attack"
+      flavor: "Sudden enlightenment, decisive moment."
+
+  - name: "Othala"
+    symbol: "ᛟ"
+    letter: "O"
+    meaning: "Heritage, homeland"
+    keywords: ["ancestors", "inheritance", "home", "legacy"]
+    
+    symbolic_encounter: "Ancestral guidance, homeland connection"
+    outcome_twist: "Heritage reveals power or duty"
+    
+    birth_effect:
+      description: "Gain +1 AC or advantage on saving throw vs curses"
+      mechanic: "curse_resistance"
+      flavor: "Heritage and ancestral protection shape destiny."
+    
+    mystic_effect:
+      description: "Ancestral protection: advantage vs curses, fear, or charm"
+      flavor: "Heritage grants mystical protection."
+
+# Rune drawing mechanics
+mechanics:
+  draw_method: "Pull randomly from pouch, or roll d24"
+  reversed_optional: true
+  reversed_meaning: "Blockage, delay, or challenge related to upright meaning"
+  
+  # Special combinations
+  pairings:
+    same_rune_twice: "Fate strongly emphasizes this aspect"
+    opposing_runes: "Internal conflict or choice required"
+    complementary: "Synergistic blessing or challenge"

@@ -1,0 +1,10 @@
+version: 1
+patterns:
+  - type: sea
+    template: "whale-road"
+  - type: blood
+    template: "battle-dew"
+  - type: sword
+    template: "wound-serpent"
+style_targets:
+  min_kennings_per_scene: 1
